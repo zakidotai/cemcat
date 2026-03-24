@@ -17,7 +17,7 @@ WRITE_FONT_SIZE_PX = 30
 
 DATASETS = {
     "Oxide Compositions": {
-        "path": Path("upload/composition_cls_slag_updated.csv"),
+        "path": Path("data/composition_cls_slag_updated.csv"),
         "compound_columns": ["SiO2", "Al2O3", "Fe2O3", "CaO", "Na2O", "K2O", "MgO", "SO3"],
         "extra_result_columns": ["mid", "total"],
         "description": (
